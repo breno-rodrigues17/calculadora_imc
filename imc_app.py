@@ -51,3 +51,4 @@ if st.session_state.historico:
     st.subheader("📅 Histórico de IMC")
     df = pd.DataFrame(st.session_state.historico)
     st.dataframe(df)
+
